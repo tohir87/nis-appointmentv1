@@ -1,0 +1,34 @@
+{
+  "name": "nis-appointment-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+    "express": "*",
+    "body-parser": "*",
+    "mongoose": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tohir87/nis-appointmentv1.git"
+  },
+  "keywords": [
+    "Node",
+    "express",
+    "mongo",
+    "api",
+    "REST"
+  ],
+  "author": "Tohir Omoloye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tohir87/nis-appointmentv1/issues"
+  },
+  "homepage": "https://github.com/tohir87/nis-appointmentv1#readme"
+}

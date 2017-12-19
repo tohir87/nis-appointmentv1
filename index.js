@@ -36,4 +36,15 @@ app.post('/api/locations', function(req, res){
     })
 })
 
+app.delete('/api/locations/:_id', function(req, res){
+    var id = req.params._id
+
+    Location.removeLocation(id, function(err, genr){
+        if (err){
+            throw err
+        }
+        res.json(genr)
+    })
+})
+
 app.listen(3000)

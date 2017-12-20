@@ -12,9 +12,9 @@ module.exports = function(app) {
     })
     
     app.post('/api/categories', function(req, res){
-        var location = req.body
-    
-        Category.addcategory(category, function(err, category){
+        var category = req.body
+    console.log(category)
+        Category.addCategory(category, function(err, category){
             if (err) {
                 throw err
             }

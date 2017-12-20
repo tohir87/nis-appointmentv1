@@ -12,6 +12,9 @@ var locationSchema = mongoose.Schema({
         required: true
        },
        city : {
+        type: String
+       },
+       state : {
         type: String,
         required: true
        },

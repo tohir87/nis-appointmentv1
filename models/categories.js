@@ -12,7 +12,7 @@ var categorySchema = mongoose.Schema({
     }
 })
 
-var Category = module.exports = mongoose.model('Category', locationSchema)
+var Category = module.exports = mongoose.model('Category', categorySchema)
 
 // get categories
 module.exports.getCategories = function(callback, limit){
